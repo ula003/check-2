@@ -1,0 +1,77 @@
+body {
+    font-family: Raleway;
+}
+
+.item {
+    width: 384px;
+    margin-bottom: 50px;
+}
+
+.item__text__wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    background: #1B1B1B;
+    color: #FFF;
+    border-radius: 0px 0px 32px 32px;
+}
+
+.item__img {
+    display: block;
+    width: 100%;
+    height: 418px;
+}
+
+.item__title {
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.87px;
+}
+
+.item__color {
+    font-style: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.item__price {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    margin-bottom: 16px;
+}
+
+.item__cart-btn {
+    font-family: Raleway;
+    width: 100%;
+    height: 66px;
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 30px;
+    border: none;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item_list {
+    padding-top: 78px;
+}
+
+.item-list-title {
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text{
+    font-size: 35px;
+}
+.item:nth-last-child(1){
+    margin-bottom: 100px;
+}

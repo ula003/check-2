@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+  </head>
+  <body>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        width: 500px;
+        margin: 0 auto;
+        border: 1px solid red;
+      }
+      .box {
+        position: relative;
+        height: 500px;
+        background: black;
+        box-sizing: border-box;
+      }
+      .text {
+        position: absolute;
+        width: 200px;
+        margin: 0;
+        border: 1px solid red;
+        color: white;
+        bottom: 20px;
+        left: 20px;
+      }
+    </style>
+    <div class="section">
+      <div class="container">
+        <div class="box">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+            itaque dolorum distinctio, deleniti animi sequi? Cumque, accusamus.
+            Eaque saepe magni vero cum obcaecati molestias aut atque, assumenda,
+            ea, voluptate earum? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dicta excepturi magni, eius reprehenderit in nemo.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+            officiis beatae reprehenderit, aliquam omnis rem inventore tenetur
+            accusantium at repellat!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
